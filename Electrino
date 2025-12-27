@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Electrino Electric Scooters - Premium models with advanced features. Available at Rawat Associates, Kotdwara. Book now via WhatsApp!">
+    <title>Electrino Electric Scooters | Rawat Associates Kotdwara</title>
+    <link rel="icon" href="https://via.placeholder.com/32?text=E" type="image/x-icon">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        /* Fixed Header - Green Theme */
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: linear-gradient(135deg, #28a745, #218838);
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 24px;
+            font-weight: bold;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .contact {
+            font-size: 16px;
+            margin-top: 5px;
+            opacity: 0.9;
+        }
+        .nav {
+            background: #fff;
+            padding: 10px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            margin-top: 80px;
+        }
+        .nav a {
+            color: #28a745;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: 500;
+        }
+        .nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .hero {
+            background: linear-gradient(rgba(40,167,69,0.8), rgba(33,136,56,0.8)), url('https://via.placeholder.com/1200x400/28a745/ffffff?text=Electrino+Electric+Scooters') center/cover;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+            margin-bottom: 40px;
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin: 0 0 20px;
+        }
+        .hero p {
+            font-size: 20px;
+            margin: 0;
+        }
+        .models-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-bottom: 60px;
+        }
+        .model {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .model:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+        .model-name {
+            font-size: 28px;
+            font-weight: bold;
+            color: #28a745;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .price {
+            font-size: 24px;
+            color: #dc3545;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .book-btn {
+            display: block;
+            width: 100%;
+            background: linear-gradient(135deg, #28a745, #218838);
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 25px;
+            text-align: center;
+            transition: background 0.3s;
+        }
+        .book-btn:hover {
+            background: linear-gradient(135deg, #218838, #28a745);
+        }
+        .features-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 15px;
+            text-align: center;
+            border-bottom: 2px solid #28a745;
+            padding-bottom: 8px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 16px;
+        }
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        td:first-child {
+            font-weight: 600;
+            width: 40%;
+            color: #555;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 60px;
+        }
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 32px;
+            }
+            .models-section {
+                grid-template-columns: 1fr;
+            }
+            .header {
+                font-size: 20px;
+            }
+            table {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        ELECTRINO
+        <div class="contact">RAWAT ASSOCIATES KOTDWARA<br>8941875809, 790609154</div>
+    </div>
+
+    <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#models">Models</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home" class="hero">
+        <h1>Discover Electrino Electric Scooters</h1>
+        <p>Eco-friendly, powerful, and stylish rides for the future. Starting from Rs. 48,000</p>
+    </section>
+
+    <div class="container">
+        <section id="models" class="models-section">
+
+            <!-- Model 1: One (Lowest Price) -->
+            <div class="model">
+                <div class="model-name">Electrino One</div>
+                <div class="price">Rs. 48,000</div>
+                <a href="https://wa.me/p/25504428979168897/918941875809" target="_blank" class="book-btn">See Image & Book Now</a>
+                <div class="features-title">Key Features</div>
+                <table>
+                    <tr><td>Registration</td><td>Non RTO</td></tr>
+                    <tr><td>Top Speed</td><td>25 km/h</td></tr>
+                    <tr><td>Range</td><td>100* Km</td></tr>
+                    <tr><td>Motor Type</td><td>Brushless DC Hub Motor</td></tr>
+                    <tr><td>Controller</td><td>48/60 Smart Wireless 30Amp</td></tr>
+                    <tr><td>Reverse Gear</td><td>Yes</td></tr>
+                    <tr><td>Riding Mode</td><td>Eco, Normal, Sports</td></tr>
+                    <tr><td>Battery</td><td>Lithium ion 60V</td></tr>
+                    <tr><td>Charging Time</td><td>5-6 Hours</td></tr>
+                    <tr><td>Tyre</td><td>90/100-10 Inches Front & Rear, Tubeless</td></tr>
+                    <tr><td>Headlight</td><td>LED</td></tr>
+                    <tr><td>Wheels Type</td><td>Alloy</td></tr>
+                    <tr><td>Brake System</td><td>Front Disc, Rear Drum</td></tr>
+                    <tr><td>Battery Warranty</td><td>3 Year</td></tr>
+                    <tr><td>Charger Warranty</td><td>1 Year</td></tr>
+                    <tr><td>Motor Warranty</td><td>1 Year</td></tr>
+                    <tr><td>Controller Warranty</td><td>1 Year</td></tr>
+                </table>
+            </div>
+
+            <!-- Model 2: Dual -->
+            <div class="model">
+                <div class="model-name">Electrino Dual</div>
+                <div class="price">Rs. 52,000</div>
+                <a href="https://wa.me/p/33308255095454470/918941875809" target="_blank" class="book-btn">See Image & Book Now</a>
+                <div class="features-title">Key Features</div>
+                <table>
+                    <tr><td>Registration</td><td>Non RTO</td></tr>
+                    <tr><td>Top Speed</td><td>25 km/h</td></tr>
+                    <tr><td>Range</td><td>100* Km</td></tr>
+                    <tr><td>Motor Type</td><td>Brushless DC Hub Motor</td></tr>
+                    <tr><td>Controller</td><td>60/72 Smart Wireless 40Amp</td></tr>
+                    <tr><td>Reverse Gear</td><td>Yes</td></tr>
+                    <tr><td>Riding Mode</td><td>Eco, Normal, Sports</td></tr>
+                    <tr><td>Battery</td><td>Lithium ion 60V</td></tr>
+                    <tr><td>Charging Time</td><td>5-6 Hours</td></tr>
+                    <tr><td>Tyre</td><td>Front: 90/90-12 Inches, Rear: 90/100-10, Tubeless</td></tr>
+                    <tr><td>Headlight</td><td>LED</td></tr>
+                    <tr><td>Wheels Type</td><td>Alloy</td></tr>
+                    <tr><td>Brake System</td><td>Front Disc, Rear Drum</td></tr>
+                    <tr><td>Battery Warranty</td><td>3 Year</td></tr>
+                    <tr><td>Charger Warranty</td><td>1 Year</td></tr>
+                    <tr><td>Motor Warranty</td><td>1 Year</td></tr>
+                    <tr><td>Controller Warranty</td><td>1 Year</td></tr>
+                </table>
+            </div>
+
+            <!-- Model 3: Core -->
+            <div class="model">
+                <div class="model-name">Electrino Core</div>
+                <div class="price">Rs. 67,500</div>
+                <a href="https://wa.me/p/25669768452658709/918941875809" target="_blank" class="book-btn">See Image & Book Now</a>
+                <div class="features-title">Key Features</div>
+                <table>
+                    <tr><td>Registration</td><td>Non RTO</td></tr>
+                    <tr><td>Top Speed</td><td>25 km/h</td></tr>
+                    <tr><td>Range</td><td>100* Km</td></tr>
+                    <tr><td>Motor Type</td><td>Brushless DC Hub Motor</td></tr>
+                    <tr><td>Controller</td><td>60/72 Smart Wireless 30Amp</td></tr>
+                    <tr><td>Reverse Gear</td><td>Yes</td></tr>
+                    <tr><td>Riding Mode</td><td>Eco, Normal, Sports</td></tr>
+                    <tr><td>Battery</td><td>Lithium ion 60V</td></tr>
+                    <tr><td>Charging Time</td><td>5-6 Hours</td></tr>
+                    <tr><td>Tyre</td><td>90/90-12 Inches Front & Rear, Tubeless</td></tr>
+                    <tr><td>Headlight</td><td>LED</td></tr>
+                    <tr><td>Wheels Type</td><td>Alloy</td></tr>
+                    <tr><td>Brake System</td><td>Double Disc</td></tr>
+                    <tr><td>Battery Warranty</td><td>3 Year</td></tr>
+                    <tr><td>Charger Warranty</td><td>1 Year</td></tr>
+                    <tr><td>Motor Warranty</td><td>1 Year</td></tr>
+                    <tr><td>Controller Warranty</td><td>1 Year</td></tr>
+                </table>
+            </div>
+
+            <!-- Model 4: Active Pro -->
+            <div class="model">
+                <div class="model-name">Electrino Active Pro</div>
+                <div class="price">Rs. 70,500</div>
+                <a href="https://wa.me/p/25224539807199503/918941875809" target="_blank" class="book-btn">See Image & Book Now</a>
+                <div class="features-title">Key Features</div>
+                <table>
+                    <tr><td>Registration</td><td>Non RTO</td></tr>
+                    <tr><td>Top Speed</td><td>25 km/h</td></tr>
+                    <tr><td>Range</td><td>100* Km</td></tr>
+                    <tr><td>Motor Type</td><td>Brushless DC Hub Motor 250 Watt</td></tr>
+                    <tr><td>Controller</td><td>60/72 Smart Wireless 40Amp</td></tr>
+                    <tr><td>Reverse Gear</td><td>Yes</td></tr>
+                    <tr><td>Riding Mode</td><td>Eco, Normal, Sports</td></tr>
+                    <tr><td>Battery</td><td>Lithium ion 60V</td></tr>
+                    <tr><td>Charging Time</td><td>5-6 Hours</td></tr>
+                    <tr><td>Tyre</td><td>90/90-12 Inches Front & Rear, Tubeless</td></tr>
+                    <tr><td>Headlight</td><td>LED</td></tr>
+                    <tr><td>Wheels Type</td><td>Alloy</td></tr>
+                    <tr><td>Brake System</td><td>Double Disc</td></tr>
+                    <tr><td>Battery Warranty</td><td>3 Year</td></tr>
+                    <tr><td>Charger Warranty</td><td>1 Year</td></tr>
+                    <tr><td>Motor Warranty</td><td>1 Year</td></tr>
+                    <tr><td>Controller Warranty</td><td>1 Year</td></tr>
+                </table>
+            </div>
+
+            <!-- Model 5: Crown -->
+            <div class="model">
+                <div class="model-name">Electrino Crown</div>
+                <div class="price">Rs. 70,500</div>
+                <a href="https://wa.me/p/25314932148115650/918941875809" target="_blank" class="book-btn">See Image & Book Now</a>
+                <div class="features-title">Key Features</div>
+                <table>
+                    <tr><td>Registration</td><td>Non RTO</td></tr>
+                    <tr><td>Top Speed</td><td>25 km/h</td></tr>
+                    <tr><td>Range</td><td>100* Km</td></tr>
+                    <tr><td>Motor Type</td><td>Brushless DC Hub Motor</td></tr>
+                    <tr><td>Controller</td><td>60/72 Smart Wireless 40Amp</td></tr>
+                    <tr><td>Reverse Gear</td><td>Yes</td></tr>
+                    <tr><td>Riding Mode</td><td>Eco, Normal, Sports</td></tr>
+                    <tr><td>Battery</td><td>Lithium ion 60V</td></tr>
+                    <tr><td>Charging Time</td><td>5-6 Hours</td></tr>
+                    <tr><td>Tyre</td><td>90/90-12 Inches Front & Rear, Tubeless</td></tr>
+                    <tr><td>Headlight</td><td>LED</td></tr>
+                    <tr><td>Wheels Type</td><td>Alloy</td></tr>
+                    <tr><td>Brake System</td><td>Double Disc</td></tr>
+                    <tr><td>Battery Warranty</td><td>3 Year</td></tr>
+                    <tr><td>Charger Warranty</td><td>1 Year</td></tr>
+                    <tr><td>Motor Warranty</td><td>1 Year</td></tr>
+                    <tr><td>Controller Warranty</td><td>1 Year</td></tr>
+                </table>
+            </div>
+
+        </section>
+    </div>
+
+    <footer id="contact">
+        <p>&copy; 2025 Electrino - Rawat Associates Kotdwara. All rights reserved. | Contact: 8941875809 | 790609154</p>
+    </footer>
+
+</body>
+</html>
